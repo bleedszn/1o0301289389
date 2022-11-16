@@ -15,7 +15,7 @@ module.exports = async (client) => {
   let invite = `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`;
   console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by ZeroSync https://www.youtube.com/c/ZeroSync\n[Invite Link] ${invite}`);
   client.user.setPresence({
-  activities: [{ name: `ZeroSync on YouTube`, type: ActivityType.Watching }],
+  activities: [{ name: `your giveaways! | g,help or /help!`, type: ActivityType.Watching }],
   status: 'online',
 });
 
